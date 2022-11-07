@@ -1,1 +1,10 @@
-
+{"Bug ID": "G01",
+ "Title": "Неверное отображение товаров при включении фильтра по бренду",
+ "Description": "Показ товаров других брендов при включенном фильтре",
+ "STR and inputs": "URL сайта: https://test.qa.studio/ 1.Перейти по указанной ссылке 2. Кликнуть на элемент Фильтр 3. Выбрать любой бренд из списка 4. Нажать кнопку Фильтр",
+ "Expexted result": "Отображаются товары бренда, выбранного в фильтре",
+ "Actual result": "Отображаются товары других брендов",
+ "Attachments": "...",
+ "Priority": "High" 
+ "Severity": "Critical"
+ "Environment": "Intel Core i5-3470 CPU 3.20 GHz 3/60 GHz Windows 10 Mozilla Firefox 103.0.2"}
